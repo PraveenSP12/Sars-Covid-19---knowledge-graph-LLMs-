@@ -16,7 +16,8 @@ https://www.kaggle.com/datasets/allen-institute-for-ai/CORD-19-research-challeng
 
 
 Simple procedure :
-     I have created the solution for above mentioned problem using LLMs (Langchain from Huggingface) for NER Model and developed a knowledge graph using the Entities, Relations and Edges.
+
+I have created the solution for above mentioned problem using LLMs (Langchain from Huggingface) for NER Model and developed a knowledge graph using the Entities, Relations and Edges.
 
 1. Import the necessary libraries such as (Example: transformers, sentencepiece, langchain, HuggingFacePipeline, AutoTokenizer, networkx, matplotlib, etc)
 2. Import the Dataset specific file named Metadata.csv (1.65 GB) , The whole Dataset contains 87 GB of Data which makes the model hard to execute. So filter the neccessary data and import it.
@@ -28,6 +29,7 @@ Simple procedure :
 
 Article refered regarding genetic structure of SARS-CoV-2 :
 https://onlinelibrary.wiley.com/doi/full/10.1002/bies.202000240
+
 
 Sample Output :
 ![s1](https://github.com/PraveenSP12/Sars-Covid-19---knowledge-graph-LLMs-/assets/95535247/71afd054-312d-481b-bb3b-c4e5da46eabb)
